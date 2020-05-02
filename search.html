@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/63b0e526bd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Homes Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_wrapper header_mid">
+            <nav id="nav">
+                <div class="nav_wrapper">
+                    <div class="hero_logo">
+                        <a href="#"><img src="./img/logo.png" alt=""></a>
+                    </div>
+                    <div class="hero_nav">
+                        <div class="navigation">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="search.html">Search Results</a></li>
+                                <li><a href="categories.html">Categories</a></li>
+                                <li><a href="property.html">Single Property</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="social_menu">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+            <div class="hero_wrapper">
+                <h1><span>Search Results</span>
+                    
+                  
+                </h1>
+            </div>
+        </div>
+    </header>
+    <div class="filter_wrapper searc_map">
+        <div class="container inherit">
+            <div class="filter move">
+                <div class="filter_drop location">
+                    <p class="filterP">Location</p>
+                    <div class="dropdown">
+                        <span>London</span>
+                        <ul>
+                            <li>London</li>
+                            <li>Usa</li>
+                            <li>Germany</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="filter_drop prop">
+                    <p class="filterP">Property Type</p>
+                    <div class="dropdown">
+                        <span>House</span>
+
+                    </div>
+                </div>
+                <div class="filter_price">
+                    <p class="filterP">Price</p>
+                    <div class="price_slide">
+                        <span> 50k</span>
+                        <span class="right_span">300k</span>
+                    </div>
+                </div>
+                <div class="filter_room">
+                    <p class="filterP">Bedrooms</p>
+                    <div class="room_selector">
+                        <input type="radio" name="radio" id="radio-1">
+                        <label for="radio-1">1</label>
+                        <input type="radio" name="radio" id="radio-2">
+                        <label for="radio-2">2</label>
+                        <input type="radio" name="radio" id="radio-3">
+                        <label for="radio-3">3</label>
+                        <input type="radio" name="radio" id="radio-4">
+                        <label for="radio-4">4+</label>
+
+
+
+                    </div>
+                </div>
+                <div class="filter_room bath">
+                    <p class="filterP">Bathrooms</p>
+                    <div class="room_selector">
+                        <input type="radio" name="radi" id="radio-5">
+                        <label for="radio-5">1</label>
+                        <input type="radio" name="radi" id="radio-6">
+                        <label for="radio-6">2</label>
+                        <input type="radio" name="radi" id="radio-7">
+                        <label for="radio-7">3</label>
+                        <input type="radio" name="radi" id="radio-8">
+                        <label for="radio-8">4+</label>
+
+
+
+                    </div>
+
+                </div>
+                <div class="filter_search">
+                    <a href="#"><i class="fas fa-search"></i> Search</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<div class="google_map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5846348.994866867!2d-101.62604334965393!3d31.694443143315894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864070360b823249%3A0x16eb1c8f1808de3c!2z0KLQtdGF0LDRgSwg0KHQqNCQ!5e0!3m2!1sru!2s!4v1584320433250!5m2!1sru!2s" width="100%" height="650px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+<div class="found_prop">
+    <div class="container">
+        <div class="prop_wrap">
+            <h3>We found <span>6</span> propeties</h3>
+            <div class="newTo_old">
+                <span>Date New To Old</span>
+                </div>
+
+        </div>
+    </div>
+</div>
+    <section id="section_home">
+        <div class="home_wrapper mg-change">
+            <div class="container">
+                <div class="home_block">
+                    <div class="home_element">
+                        <div class="row">
+                            <div class="home_img one_bg">
+                                <!-- <img src="./img/1.jpg" alt=""> -->
+                                <a href="#">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="home_subimage">
+                                <div class="column_top">
+                                    <h5>
+                                        Country Style House with beautiful garden and terrace
+                                    </h5>
+                                    <a href="#">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Location</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-location-arrow"></i>
+                                        <span>Show on Map</span>
+                                    </a>
+                                </div>
+                                <div class="column_middle">
+                                    <div class="row">
+                                        <p>Lot size</p>
+                                        <img src="./img/size.png" alt="">
+                                        <span>2561 sqft</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Beds</p>
+                                        <img src="./img/bed.png" alt="">
+                                        <span> 9</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Baths</p>
+                                        <img src="./img/bath.png" alt="">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Garage</p>
+                                        <img src="./img/garage.png" alt="">
+                                        <span>1</span>
+                                    </div>
+                                </div>
+                                <div class="column_bottom">
+                                    <div class="price">
+                                        <p>For Sale</p>
+                                        <span>$345,000</span>
+                                    </div>
+                                    <a class="button_green" href="#">
+                                        View Property
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="home_element">
+                        <div class="row">
+                            <div class="home_img two_bg">
+                                <!-- <img src="./img/1 (1).jpg" alt=""> -->
+                                <a href="#">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="home_subimage">
+                                <div class="column_top">
+                                    <h5>
+                                        Country Style House with beautiful garden and terrace
+                                    </h5>
+                                    <a href="#">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Location</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-location-arrow"></i>
+                                        <span>Show on Map</span>
+                                    </a>
+                                </div>
+                                <div class="column_middle">
+                                    <div class="row">
+                                        <p>Lot size</p>
+                                        <img src="./img/size.png" alt="">
+                                        <span>2561 sqft</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Beds</p>
+                                        <img src="./img/bed.png" alt="">
+                                        <span> 9</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Baths</p>
+                                        <img src="./img/bath.png" alt="">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Garage</p>
+                                        <img src="./img/garage.png" alt="">
+                                        <span>1</span>
+                                    </div>
+                                </div>
+                                <div class="column_bottom">
+                                    <div class="price">
+                                        <p>For Sale</p>
+                                        <span>$345,000</span>
+                                    </div>
+                                    <a class="button_green" href="#">
+                                        View Property
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="home_element">
+                        <div class="row">
+                            <div class="home_img thri_bg">
+                                <!-- <img src="./img/3.jpg" alt=""> -->
+                                <a href="#">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="home_subimage">
+                                <div class="column_top">
+                                    <h5>
+                                        Country Style House with beautiful garden and terrace
+                                    </h5>
+                                    <a href="#">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Location</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-location-arrow"></i>
+                                        <span>Show on Map</span>
+                                    </a>
+                                </div>
+                                <div class="column_middle">
+                                    <div class="row">
+                                        <p>Lot size</p>
+                                        <img src="./img/size.png" alt="">
+                                        <span>2561 sqft</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Beds</p>
+                                        <img src="./img/bed.png" alt="">
+                                        <span> 9</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Baths</p>
+                                        <img src="./img/bath.png" alt="">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Garage</p>
+                                        <img src="./img/garage.png" alt="">
+                                        <span>1</span>
+                                    </div>
+                                </div>
+                                <div class="column_bottom">
+                                    <div class="price">
+                                        <p>For Sale</p>
+                                        <span>$345,000</span>
+                                    </div>
+                                    <a class="button_green" href="#">
+                                        View Property
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="home_element">
+                        <div class="row">
+                            <div class="home_img four_bg">
+                                <!-- <img src="./img/4.jpg" alt=""> -->
+                                <a href="#">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="home_subimage">
+                                <div class="column_top">
+                                    <h5>
+                                        Country Style House with beautiful garden and terrace
+                                    </h5>
+                                    <a href="#">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Location</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-location-arrow"></i>
+                                        <span>Show on Map</span>
+                                    </a>
+                                </div>
+                                <div class="column_middle">
+                                    <div class="row">
+                                        <p>Lot size</p>
+                                        <img src="./img/size.png" alt="">
+                                        <span>2561 sqft</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Beds</p>
+                                        <img src="./img/bed.png" alt="">
+                                        <span> 9</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Baths</p>
+                                        <img src="./img/bath.png" alt="">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Garage</p>
+                                        <img src="./img/garage.png" alt="">
+                                        <span>1</span>
+                                    </div>
+                                </div>
+                                <div class="column_bottom">
+                                    <div class="price">
+                                        <p>For Sale</p>
+                                        <span>$345,000</span>
+                                    </div>
+                                    <a class="button_green" href="#">
+                                        View Property
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="home_element">
+                        <div class="row">
+                            <div class="home_img five_bg">
+                                <!-- <img src="./img/5.jpg" alt=""> -->
+                                <a href="#">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="home_subimage">
+                                <div class="column_top">
+                                    <h5>
+                                        Country Style House with beautiful garden and terrace
+                                    </h5>
+                                    <a href="#">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Location</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-location-arrow"></i>
+                                        <span>Show on Map</span>
+                                    </a>
+                                </div>
+                                <div class="column_middle">
+                                    <div class="row">
+                                        <p>Lot size</p>
+                                        <img src="./img/size.png" alt="">
+                                        <span>2561 sqft</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Beds</p>
+                                        <img src="./img/bed.png" alt="">
+                                        <span> 9</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Baths</p>
+                                        <img src="./img/bath.png" alt="">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Garage</p>
+                                        <img src="./img/garage.png" alt="">
+                                        <span>1</span>
+                                    </div>
+                                </div>
+                                <div class="column_bottom">
+                                    <div class="price">
+                                        <p>For Sale</p>
+                                        <span>$345,000</span>
+                                    </div>
+                                    <a class="button_green" href="#">
+                                        View Property
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="home_element">
+                        <div class="row">
+                            <div class="home_img six_bg">
+                                <!-- <img src="./img/6.jpg" alt=""> -->
+                                <a href="#">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="home_subimage">
+                                <div class="column_top">
+                                    <h5>
+                                        Country Style House with beautiful garden and terrace
+                                    </h5>
+                                    <a href="#">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Location</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fas fa-location-arrow"></i>
+                                        <span>Show on Map</span>
+                                    </a>
+                                </div>
+                                <div class="column_middle">
+                                    <div class="row">
+                                        <p>Lot size</p>
+                                        <img src="./img/size.png" alt="">
+                                        <span>2561 sqft</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Beds</p>
+                                        <img src="./img/bed.png" alt="">
+                                        <span> 9</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Baths</p>
+                                        <img src="./img/bath.png" alt="">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="row">
+                                        <p>Garage</p>
+                                        <img src="./img/garage.png" alt="">
+                                        <span>1</span>
+                                    </div>
+                                </div>
+                                <div class="column_bottom">
+                                    <div class="price">
+                                        <p>For Sale</p>
+                                        <span>$345,000</span>
+                                    </div>
+                                    <a class="button_green" href="#">
+                                        View Property
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <footer class="footer">
+        <div class="footer_wrapper">
+            <div class="container">
+               <div class="footer_main">
+                <div class="footer_logo">
+                    <img src="./img/only-logo.png" alt="">
+                </div>
+                <div class="footer_box">
+                    <div class="row">
+                        <h5 class="footer_h">
+                            About Homes
+                        </h5>
+                        <p class="footer_p">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend tristique venenatis.
+                            Maecenas a rutrum tellus nam vel semper nibh.
+                        </p>
+                        <div class="social_menu">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h5 class="footer_h">
+                            Latest Blog Posts
+                        </h5>
+                        <div class="footer_blog">
+                            <div class="footer_img">
+                                <img src="./img/footer-blog-1.jpg" alt="">
+                            </div>
+                            <div class="footer_right">
+                                <h4 class="footer_h">How to find the perfect area for
+                                    your next house.</h4>
+                                <div class="footer_blog_info">
+                                    <span><i class="far fa-clock"></i> <p>5 min</p></span>
+                                    <span><i class="fas fa-chevron-circle-right"></i> <a href="#">Read More</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer_blog">
+                           
+                                <div class="footer_img">
+                                    <img src="./img/footer-blog-2.jpg" alt="">
+                                </div>
+                                <div class="footer_right">
+                                <h4 class="footer_h">How to find the perfect area for
+                                    your next house.</h4>
+                                <div class="footer_blog_info">
+                                    <span><i class="far fa-clock"></i> <p>5 min</p></span>
+                                    <span><i class="fas fa-chevron-circle-right"></i> <a href="#">Read More</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                    <div class="touch_row">
+                        <h5 class="footer_h">
+                            Get In Touch
+                        </h5>
+                        <span><i class="fas fa-map-marker-alt"></i>
+                            <p class="footer_p">132 Liberty Streetelit, Plano, Texas</p>
+                        </span>
+                        <span><i class="far fa-envelope"></i>
+                            <p class="footer_p">hello@home.com</p>
+                        </span>
+                        <span>
+                            <i class="fas fa-mobile-alt"></i>
+                            <p class="footer_p">
+                                214-805-4428
+                            </p>
+                        </span>
+                        <span>
+                            <p class="footer_p">
+                                Monday – Friday: 9 am – 5 pm<br>
+
+                                Saturday: 9 am – 1pm    
+                            </p>
+                        </span>
+                    </div>
+                    </div>
+                </div>
+                <div class="footer_reservs">
+                    <p>Copyright ©2020 All rights reserved | This template is made with <i class="far fa-heart"></i> by <a href="#">Colorlib</a></p>
+                </div>
+               </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slider_right').slick({
+
+            });
+        });
+    </script>
+</body>
+
+</html>

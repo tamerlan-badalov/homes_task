@@ -1,0 +1,129 @@
+.categ_wrapper {
+  width: 100%;
+  display: flex;
+}
+.welcom_part {
+  width: 50%;
+  background-color: #6F6F8A;
+}
+.welcom_blog {
+    padding: 100px 50px;
+  h1 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #fff;
+  }
+  p{
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 26px;
+      color: #ddddde;
+  }
+  a{
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 15px 20px;
+      background-color: #8AD144;
+      border-radius: 5px;
+      margin-top: 20px;
+      display: inline-block;
+  }
+}
+.welcom_img_part {
+  width: 50%;
+  display: flex;
+  .img_blog{
+      width: 70%;
+      img{
+          width: 100%;
+          display: block;
+      }
+  }
+  >img{
+      width: 30%;
+      display: block;
+  }
+}
+      
+// ===========team====
+.team_head{
+    text-align: center;
+    margin-top: 60px;
+    h1{
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 48px;
+        color: #30304e;
+        span{
+            font-weight: 400;
+            color: #6f6f8a;
+            ;
+        }
+    }
+    
+}
+.team_person{
+    width: 100%;
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    .row{width: 33.3%;
+        padding: 0 15px;
+        text-align: center;
+        &:last-child>img{width: 103%;}
+        h1{
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 36px;
+            color: #30304e;
+            margin-bottom: 0;
+        }
+        span{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29px;
+            color: #6f6f8a;
+        }
+        img{
+            width: 100%;
+            display: block;
+        }
+
+    }
+}
+.team_statistic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #dadae1;
+    padding-top: 90px;
+    margin-bottom: 20px;
+
+    .row{
+        width: 25%;
+        display: flex;
+        padding: 0 15px;
+        h1{
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 45px;
+            color: #30304e;
+            margin: 0;
+            
+        }
+        span{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29px;
+            color: #6f6f8a;
+            margin-top: 10px;
+            display: inline-block;
+        }
+    }
+}
+.stats{
+    text-align: left;
+    margin-left: 20px;
+}
